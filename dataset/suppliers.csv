@@ -1,0 +1,9 @@
+supplier_id,supplier_name,supplier_country,payment_terms
+1,Acme Supply,China, net 60 
+2,Global Goods,US, net 60 
+3,PrimeSource,Vietnam,Net 45
+4,Blue Ridge,US,
+5,Utah Wholesale,Mexico, net 60 
+6,Evergreen Imports,Vietnam,NET30
+7,Summit Trading, CHINA ,NET30
+8,Metro Logistics,US, net 60 

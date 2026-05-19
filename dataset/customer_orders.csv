@@ -1,0 +1,451 @@
+order_id,order_date,customer_region,sales_channel,order_status
+1001,2026-01-23,East,amazon, SHIPPED 
+1002,2026-03-18,West,amazon,delivered
+1003,2026-04-14,South,amazon,Backordered
+1004,2026-03-19,west , SHOPIFY ,delivered
+1005,2026-03-17,East,amazon,Cancelled
+1006,2026-01-21,west ,Walmart,delivered
+1007,2026-01-15,,Walmart,delivered
+1008,2026-04-08,Midwest,Walmart,Backordered
+1009,2026-03-18,, SHOPIFY ,Backordered
+1010,2026-02-25,west ,Shopify,Delivered
+1011,2026-03-23,Midwest,Walmart, SHIPPED 
+1012,2026-03-04,South,Shopify,Cancelled
+1013,2026-02-23,West,eBay,Cancelled
+1014,2026-03-14,west ,Walmart,Backordered
+1015,2026-02-09,East,eBay,Shipped
+1016,2026-03-01,East, SHOPIFY ,Delivered
+1017,2026-03-12,West,eBay,delivered
+1018,2026-04-08,Midwest,amazon,Backordered
+1019,2026-02-24,Midwest,amazon, SHIPPED 
+1020,2026-02-05,West, SHOPIFY , SHIPPED 
+1021,2026-03-17,West, SHOPIFY ,Shipped
+1022,2026-02-03,Midwest,Shopify,Delivered
+1023,2026-02-12,Midwest,eBay,Backordered
+1024,2026-03-24,East, SHOPIFY ,delivered
+1025,2026-04-23,West, SHOPIFY ,Cancelled
+1026,2026-04-03,west ,amazon, SHIPPED 
+1027,2026-04-21,West,Amazon,Delivered
+1028,2026-05-02,,Walmart,Delivered
+1029,2026-02-20,Midwest,amazon,Backordered
+1030,2026-02-14,South, SHOPIFY , SHIPPED 
+1031,2026-04-09,Midwest,Shopify,Backordered
+1032,2026-05-06,Midwest, SHOPIFY ,Backordered
+1033,2026-02-25,,Amazon,Backordered
+1034,2026-02-05,West,Shopify,Shipped
+1035,2026-04-11,west ,Shopify,Backordered
+1036,2026-04-20,South,Walmart,Shipped
+1037,2026-02-10,,Amazon,Cancelled
+1038,2026-01-20,East,amazon,Shipped
+1039,2026-02-12,,eBay,Backordered
+1040,2026-01-22,west ,amazon,Shipped
+1041,2026-04-10,South,Walmart,delivered
+1042,2026-01-22,west ,amazon, SHIPPED 
+1043,2026-04-22,west ,Walmart,Delivered
+1044,2026-04-06,South, SHOPIFY ,Shipped
+1045,2026-05-11,Midwest,Amazon,Cancelled
+1046,2026-04-18,East,eBay,Shipped
+1047,2026-04-05,East,Walmart,delivered
+1048,2026-03-02,West,Walmart,Backordered
+1049,2026-01-16,East, SHOPIFY ,Backordered
+1050,2026-04-26,Midwest,eBay,Backordered
+1051,2026-01-11,East,eBay,Shipped
+1052,2026-03-05,West,Walmart,Delivered
+1053,2026-02-20,East,Walmart, SHIPPED 
+1054,2026-04-20,East,eBay,Shipped
+1055,2026-03-05,West,amazon, SHIPPED 
+1056,2026-03-10,West, SHOPIFY ,delivered
+1057,2026-03-21,West,Walmart,Shipped
+1058,2026-03-24,East,Amazon,Delivered
+1059,2026-04-02,west , SHOPIFY ,Shipped
+1060,2026-01-27,South,Shopify,Backordered
+1061,2026-03-07,West, SHOPIFY ,Delivered
+1062,2026-04-26,South,Amazon,Delivered
+1063,2026-05-04,Midwest,Amazon, SHIPPED 
+1064,2026-01-14,Midwest,Amazon,Cancelled
+1065,2026-03-16,West,Walmart,Delivered
+1066,2026-01-22,west ,eBay, SHIPPED 
+1067,2026-02-21,west ,Shopify, SHIPPED 
+1068,2026-01-26,South,amazon,Cancelled
+1069,2026-01-06,South,eBay,Cancelled
+1070,2026-03-21,Midwest,amazon, SHIPPED 
+1071,2026-01-08,Midwest,eBay,Shipped
+1072,2026-02-03,west ,Shopify, SHIPPED 
+1073,2026-04-30,west , SHOPIFY ,Cancelled
+1074,2026-02-05,,Amazon, SHIPPED 
+1075,2026-01-23,East,eBay,Shipped
+1076,2026-04-15,East,Walmart,delivered
+1077,2026-04-09,west ,Amazon,Delivered
+1078,2026-01-17,South,eBay,Delivered
+1079,2026-01-13,,Amazon, SHIPPED 
+1080,2026-04-18,,Amazon, SHIPPED 
+1081,2026-05-04,West,Shopify,Cancelled
+1082,2026-03-17,West,Walmart,Cancelled
+1083,2026-03-22,West, SHOPIFY ,Backordered
+1084,2026-03-29,Midwest,Amazon,Shipped
+1085,2026-05-05,Midwest,Walmart,Delivered
+1086,2026-01-25,, SHOPIFY ,Backordered
+1087,2026-03-26,west ,Amazon,Cancelled
+1088,2026-04-14,west ,Amazon,Backordered
+1089,2026-03-26,west ,amazon,delivered
+1090,2026-02-18,West,eBay, SHIPPED 
+1091,2026-03-05,South,Walmart,Cancelled
+1092,2026-02-03,East, SHOPIFY , SHIPPED 
+1093,2026-02-07,South, SHOPIFY ,Delivered
+1094,2026-03-22,West,Amazon,delivered
+1095,2026-02-11,West,eBay,delivered
+1096,2026-02-26,South, SHOPIFY ,Shipped
+1097,2026-03-14,South,amazon,Delivered
+1098,2026-04-28,West,eBay, SHIPPED 
+1099,2026-04-14,West,eBay,Backordered
+1100,2026-03-17,South,Shopify, SHIPPED 
+1101,2026-01-30,west , SHOPIFY ,Shipped
+1102,2026-04-02,, SHOPIFY ,Shipped
+1103,2026-03-22,,Shopify,Shipped
+1104,2026-04-14,West,Shopify,delivered
+1105,2026-02-05,East,Shopify,Backordered
+1106,2026-01-12,South, SHOPIFY ,Delivered
+1107,2026-03-06,west ,Shopify,Backordered
+1108,2026-02-23,,Shopify,delivered
+1109,2026-02-26,East,amazon,Backordered
+1110,2026-01-25,west ,Walmart,Shipped
+1111,2026-04-18,,Amazon,Cancelled
+1112,2026-01-31,Midwest,Amazon,delivered
+1113,2026-05-04,west ,eBay,Shipped
+1114,2026-04-05,West,amazon,Delivered
+1115,2026-02-21,,Amazon,delivered
+1116,2026-02-14,West,amazon,Backordered
+1117,2026-05-04,Midwest,eBay,Shipped
+1118,2026-02-25,East,eBay,delivered
+1119,2026-01-02,Midwest,Amazon,delivered
+1120,2026-02-14,,Amazon,Backordered
+1121,2026-02-03,East, SHOPIFY ,delivered
+1122,2026-03-18,west ,amazon,Cancelled
+1123,2026-03-07,West, SHOPIFY ,Backordered
+1124,2026-04-18,west ,amazon, SHIPPED 
+1125,2026-02-12,West,Amazon,Backordered
+1126,2026-02-28,South, SHOPIFY ,Shipped
+1127,2026-03-21,west ,Walmart,Cancelled
+1128,2026-02-04,Midwest,eBay,Cancelled
+1129,2026-03-01,South,amazon,Delivered
+1130,2026-03-10,West,Shopify,Backordered
+1131,2026-03-14,,Shopify,Cancelled
+1132,2026-02-01,Midwest,Shopify, SHIPPED 
+1133,2026-03-25,South,Shopify,Delivered
+1134,2026-05-08,west , SHOPIFY ,Delivered
+1135,2026-03-17,Midwest, SHOPIFY ,delivered
+1136,2026-01-01,Midwest,amazon, SHIPPED 
+1137,2026-03-24,west ,Amazon,Delivered
+1138,2026-03-07,East,eBay,Delivered
+1139,2026-03-10,,Amazon,delivered
+1140,2026-02-15,west , SHOPIFY ,delivered
+1141,2026-03-07,Midwest,Walmart,Cancelled
+1142,2026-05-11,west ,amazon,delivered
+1143,2026-05-04,,Walmart,Shipped
+1144,2026-01-03,Midwest, SHOPIFY , SHIPPED 
+1145,2026-05-10,Midwest,Shopify,Delivered
+1146,2026-03-05,South,Amazon,Shipped
+1147,2026-01-14,East,amazon,Shipped
+1148,2026-01-12,West,Shopify,Cancelled
+1149,2026-04-08,West, SHOPIFY ,delivered
+1150,2026-03-07,west ,Amazon,Backordered
+1151,2026-02-21,,eBay,Shipped
+1152,2026-04-24,, SHOPIFY , SHIPPED 
+1153,2026-04-10,East,Walmart,Backordered
+1154,2026-04-28,Midwest,Walmart,Shipped
+1155,2026-04-10,West, SHOPIFY ,delivered
+1156,2026-05-09,west ,Shopify,Delivered
+1157,2026-01-24,Midwest, SHOPIFY ,Delivered
+1158,2026-01-31,West,Shopify,Shipped
+1159,2026-02-23,East,Shopify,Delivered
+1160,2026-02-15,South, SHOPIFY ,Shipped
+1161,2026-04-16,,Shopify,delivered
+1162,2026-05-08,west ,Shopify,Backordered
+1163,2026-02-21,South,eBay, SHIPPED 
+1164,2026-02-19,,eBay,Cancelled
+1165,2026-01-05,,amazon,Shipped
+1166,2026-04-06,East,eBay,Backordered
+1167,2026-01-10,,Walmart,Backordered
+1168,2026-03-21,South,Shopify, SHIPPED 
+1169,2026-03-31,South,eBay,delivered
+1170,2026-04-25,South,eBay,delivered
+1171,2026-02-16,South, SHOPIFY , SHIPPED 
+1172,2026-04-29,Midwest,amazon,Backordered
+1173,2026-05-05,west ,amazon,Delivered
+1174,2026-02-22,South,eBay, SHIPPED 
+1175,2026-04-21,Midwest,amazon, SHIPPED 
+1176,2026-01-22,Midwest, SHOPIFY ,Shipped
+1177,2026-02-06,west , SHOPIFY , SHIPPED 
+1178,2026-04-01,East,eBay,Cancelled
+1179,2026-01-14,,eBay, SHIPPED 
+1180,2026-02-14,East, SHOPIFY ,delivered
+1181,2026-01-30,Midwest,Shopify,Delivered
+1182,2026-03-11,South,Amazon,Cancelled
+1183,2026-03-31,South, SHOPIFY ,Shipped
+1184,2026-03-17,West, SHOPIFY ,Backordered
+1185,2026-04-21,,amazon,Shipped
+1186,2026-04-10,,Shopify,Cancelled
+1187,2026-03-29,South,Walmart,Delivered
+1188,2026-03-03,West,Walmart,Backordered
+1189,2026-05-06,Midwest,Amazon, SHIPPED 
+1190,2026-05-08,East,amazon,delivered
+1191,2026-02-14,West,Amazon,Cancelled
+1192,2026-01-05,West,Amazon,Backordered
+1193,2026-04-26,East,Shopify,Backordered
+1194,2026-01-25,west ,eBay,delivered
+1195,2026-02-23,South,eBay,Backordered
+1196,2026-02-26,west ,Walmart,Delivered
+1197,2026-03-17,,Shopify,delivered
+1198,2026-02-26,west ,Shopify,delivered
+1199,2026-05-07,west ,Amazon,Shipped
+1200,2026-01-07,East,Walmart,Backordered
+1201,2026-04-09,west ,Walmart,Cancelled
+1202,2026-02-22,East,eBay,Shipped
+1203,2026-03-30,west ,Walmart,Backordered
+1204,2026-02-15,West,Amazon,Cancelled
+1205,2026-02-03,Midwest,eBay,Backordered
+1206,2026-03-14,west ,Shopify,Backordered
+1207,2026-03-30,Midwest,eBay,Shipped
+1208,2026-05-02,,amazon,Cancelled
+1209,2026-04-13,Midwest,Shopify,delivered
+1210,2026-05-11,South, SHOPIFY ,Delivered
+1211,2026-03-27,Midwest,amazon,Delivered
+1212,2026-04-08,Midwest,amazon,Cancelled
+1213,2026-01-01,South,eBay,Shipped
+1214,2026-02-11,East,Amazon,delivered
+1215,2026-03-19,, SHOPIFY ,Cancelled
+1216,2026-04-28,East,Amazon,Delivered
+1217,2026-01-31,,Shopify,Shipped
+1218,2026-01-31,West,Amazon,Cancelled
+1219,2026-03-31,west ,Shopify,Cancelled
+1220,2026-02-17,West, SHOPIFY ,Backordered
+1221,2026-01-11,Midwest,eBay,Delivered
+1222,2026-05-02,East,eBay, SHIPPED 
+1223,2026-04-04,East,eBay,Shipped
+1224,2026-01-14,,Walmart,Delivered
+1225,2026-02-21,Midwest, SHOPIFY ,Cancelled
+1226,2026-03-19,Midwest,Shopify, SHIPPED 
+1227,2026-01-12,South,eBay,Shipped
+1228,2026-01-22,South,Amazon, SHIPPED 
+1229,2026-01-06,west ,Walmart,Cancelled
+1230,2026-02-24,West,eBay,Cancelled
+1231,2026-03-19,Midwest,eBay,delivered
+1232,2026-02-21,East,Walmart,Cancelled
+1233,2026-03-15,South,Shopify, SHIPPED 
+1234,2026-03-11,South,Amazon,Shipped
+1235,2026-05-09,,amazon,Delivered
+1236,2026-04-06,South,Amazon, SHIPPED 
+1237,2026-04-10,South,Walmart,Delivered
+1238,2026-03-08,South,Amazon,delivered
+1239,2026-02-04,,Shopify,Cancelled
+1240,2026-04-29,,eBay,Shipped
+1241,2026-02-27,East,Shopify, SHIPPED 
+1242,2026-04-28,Midwest,Amazon,Delivered
+1243,2026-03-06,Midwest,amazon,delivered
+1244,2026-04-03,South,eBay,Backordered
+1245,2026-01-30,Midwest,Amazon,Backordered
+1246,2026-01-20,,Walmart,Shipped
+1247,2026-01-21,, SHOPIFY ,Backordered
+1248,2026-01-06,Midwest,Shopify,Shipped
+1249,2026-04-20,west ,Amazon,Delivered
+1250,2026-01-28,Midwest,Walmart,delivered
+1251,2026-01-22,South, SHOPIFY ,Backordered
+1252,2026-05-05,west ,amazon,Cancelled
+1253,2026-04-22,East,amazon, SHIPPED 
+1254,2026-01-06,East,amazon,Backordered
+1255,2026-05-05,West, SHOPIFY ,Shipped
+1256,2026-04-22,South,Shopify,Delivered
+1257,2026-01-23,East,Walmart, SHIPPED 
+1258,2026-05-09,South,Amazon,Delivered
+1259,2026-01-27,West, SHOPIFY ,Shipped
+1260,2026-01-02,South,Walmart,Shipped
+1261,2026-04-24,,Amazon,Shipped
+1262,2026-01-15,, SHOPIFY , SHIPPED 
+1263,2026-02-20,West,Amazon,Cancelled
+1264,2026-01-29,South,Amazon, SHIPPED 
+1265,2026-03-05,west ,eBay,Delivered
+1266,2026-04-12,Midwest,amazon,Cancelled
+1267,2026-04-05,Midwest,amazon,Delivered
+1268,2026-01-08,west ,Shopify,Shipped
+1269,2026-04-25,South, SHOPIFY ,Shipped
+1270,2026-02-12,west ,Amazon, SHIPPED 
+1271,2026-03-24,West,amazon,Backordered
+1272,2026-01-15,West,Walmart,Cancelled
+1273,2026-03-10,Midwest,eBay,Delivered
+1274,2026-04-26,Midwest,Amazon,Delivered
+1275,2026-03-13,west ,Shopify,Backordered
+1276,2026-05-06,West,amazon,Backordered
+1277,2026-02-15,West,Amazon, SHIPPED 
+1278,2026-04-12,west ,eBay,Delivered
+1279,2026-04-21,West,eBay,Backordered
+1280,2026-03-21,, SHOPIFY ,Delivered
+1281,2026-01-14,East,amazon,Cancelled
+1282,2026-04-24,west ,eBay,Delivered
+1283,2026-02-19,,Shopify,delivered
+1284,2026-03-21,South,eBay,delivered
+1285,2026-03-26,Midwest,Amazon,Shipped
+1286,2026-04-13,South,Amazon,Shipped
+1287,2026-02-20,East,eBay,Shipped
+1288,2026-03-20,South,Shopify,Backordered
+1289,2026-03-17,East,eBay,Shipped
+1290,2026-05-11,west , SHOPIFY ,Backordered
+1291,2026-04-07,South,Shopify,delivered
+1292,2026-04-08,Midwest,Shopify,Delivered
+1293,2026-03-06,, SHOPIFY ,Cancelled
+1294,2026-02-08,East,Shopify,Backordered
+1295,2026-02-05,South,Shopify,delivered
+1296,2026-01-06,East,Amazon,delivered
+1297,2026-01-27,East,amazon, SHIPPED 
+1298,2026-04-05,East,Amazon,delivered
+1299,2026-04-28,West,Shopify,Cancelled
+1300,2026-01-11,South,Amazon, SHIPPED 
+1301,2026-04-16,South,Amazon,delivered
+1302,2026-03-29,East,Walmart, SHIPPED 
+1303,2026-01-20,,Amazon, SHIPPED 
+1304,2026-03-03,West,Amazon,Shipped
+1305,2026-04-02,West,Shopify,Cancelled
+1306,2026-01-27,west ,amazon, SHIPPED 
+1307,2026-05-11,East, SHOPIFY , SHIPPED 
+1308,2026-05-08,East,Shopify,Cancelled
+1309,2026-02-22,,Amazon,delivered
+1310,2026-02-14,East,amazon,delivered
+1311,2026-05-04,Midwest,eBay,Delivered
+1312,2026-03-27,Midwest, SHOPIFY ,Shipped
+1313,2026-02-01,East,amazon,Backordered
+1314,2026-04-03,, SHOPIFY , SHIPPED 
+1315,2026-01-24,Midwest, SHOPIFY , SHIPPED 
+1316,2026-01-18,west ,Walmart, SHIPPED 
+1317,2026-03-17,West,Walmart,Delivered
+1318,2026-03-10,South,Walmart,Backordered
+1319,2026-04-26,, SHOPIFY ,delivered
+1320,2026-05-10,Midwest,Shopify,Delivered
+1321,2026-04-22,East,Amazon, SHIPPED 
+1322,2026-04-22,South,Shopify,Shipped
+1323,2026-01-01,west ,Amazon,Cancelled
+1324,2026-04-28,South,Shopify,Cancelled
+1325,2026-02-01,west , SHOPIFY ,Cancelled
+1326,2026-04-11,,Walmart,Cancelled
+1327,2026-05-04,East,Shopify,Cancelled
+1328,2026-02-13,South,Amazon,Delivered
+1329,2026-04-08,, SHOPIFY ,Cancelled
+1330,2026-02-02,West,eBay,Delivered
+1331,2026-02-01,west ,Shopify,Delivered
+1332,2026-03-17,Midwest,amazon, SHIPPED 
+1333,2026-02-25,South,eBay,delivered
+1334,2026-02-19,west ,eBay, SHIPPED 
+1335,2026-01-23,South,eBay,Cancelled
+1336,2026-03-11,West,Amazon,delivered
+1337,2026-04-18,East,Walmart, SHIPPED 
+1338,2026-05-11,Midwest,Shopify, SHIPPED 
+1339,2026-01-29,East, SHOPIFY ,Cancelled
+1340,2026-04-11,,eBay,Shipped
+1341,2026-04-01,Midwest,Amazon,Delivered
+1342,2026-04-01,West,Walmart, SHIPPED 
+1343,2026-04-13,, SHOPIFY ,delivered
+1344,2026-03-13,,eBay,Delivered
+1345,2026-01-05,West,Shopify,delivered
+1346,2026-01-29,South,eBay,Cancelled
+1347,2026-03-06,South,eBay,Backordered
+1348,2026-02-18,Midwest, SHOPIFY ,Shipped
+1349,2026-03-30,,Walmart,Cancelled
+1350,2026-05-07,west ,amazon, SHIPPED 
+1351,2026-02-25,West, SHOPIFY ,delivered
+1352,2026-03-30,South,amazon, SHIPPED 
+1353,2026-03-07,west , SHOPIFY , SHIPPED 
+1354,2026-02-15,Midwest,amazon,Shipped
+1355,2026-01-26,West,Walmart,Backordered
+1356,2026-02-21,west ,Walmart,Shipped
+1357,2026-02-27,,Walmart, SHIPPED 
+1358,2026-02-08,west ,Walmart,Shipped
+1359,2026-01-29,,Walmart,delivered
+1360,2026-05-08,Midwest,amazon,delivered
+1361,2026-03-31,South,Shopify,Cancelled
+1362,2026-02-10,South,Shopify,Delivered
+1363,2026-01-29,,Amazon,Shipped
+1364,2026-04-19,West,eBay,Shipped
+1365,2026-03-03,west ,Shopify,Cancelled
+1366,2026-05-04,South,Amazon,Delivered
+1367,2026-03-26,west , SHOPIFY ,Backordered
+1368,2026-03-01,, SHOPIFY ,Shipped
+1369,2026-05-08,East,Amazon,Delivered
+1370,2026-02-05,Midwest,amazon,Delivered
+1371,2026-05-10,,eBay,Backordered
+1372,2026-04-29,South,Amazon, SHIPPED 
+1373,2026-03-23,west ,Amazon,delivered
+1374,2026-01-14,South,Walmart,Delivered
+1375,2026-03-23,Midwest,Shopify,Delivered
+1376,2026-02-12,East,Walmart,delivered
+1377,2026-02-15,South,Walmart,Backordered
+1378,2026-01-26,west ,Walmart, SHIPPED 
+1379,2026-04-16,, SHOPIFY , SHIPPED 
+1380,2026-04-11,,amazon,Shipped
+1381,2026-04-22,west , SHOPIFY ,Delivered
+1382,2026-01-14,East,Amazon,Cancelled
+1383,2026-01-26,Midwest,Amazon,Backordered
+1384,2026-01-09,South,eBay,Delivered
+1385,2026-03-17,Midwest, SHOPIFY ,Backordered
+1386,2026-04-09,west ,Shopify,Backordered
+1387,2026-04-06,West,eBay,Shipped
+1388,2026-02-24,West,Shopify,delivered
+1389,2026-01-06,,Amazon,Cancelled
+1390,2026-03-23,West,Walmart,Cancelled
+1391,2026-01-02,South,Amazon, SHIPPED 
+1392,2026-04-28,South,Shopify,Delivered
+1393,2026-03-04,, SHOPIFY , SHIPPED 
+1394,2026-04-27,west ,Shopify, SHIPPED 
+1395,2026-02-12,west ,eBay, SHIPPED 
+1396,2026-03-09,West,amazon,Delivered
+1397,2026-04-21,West, SHOPIFY ,Delivered
+1398,2026-03-10,East,Shopify,Backordered
+1399,2026-04-27,,Amazon,Shipped
+1400,2026-01-26,South, SHOPIFY ,Cancelled
+1401,2026-02-22,East,Amazon, SHIPPED 
+1402,2026-01-03,East, SHOPIFY ,Backordered
+1403,2026-03-11,East, SHOPIFY ,Shipped
+1404,2026-04-17,South,Shopify,delivered
+1405,2026-01-08,Midwest,Amazon,delivered
+1406,2026-04-14,Midwest,Amazon, SHIPPED 
+1407,2026-02-21,West,Amazon,Delivered
+1408,2026-03-08,Midwest, SHOPIFY ,delivered
+1409,2026-05-03,,eBay,Cancelled
+1410,2026-01-28,Midwest,Walmart,Backordered
+1411,2026-04-02,East,amazon,delivered
+1412,2026-05-10,South,amazon, SHIPPED 
+1413,2026-01-27,Midwest, SHOPIFY ,Shipped
+1414,2026-02-19,West,amazon,Delivered
+1415,2026-02-23,west ,Walmart,delivered
+1416,2026-04-02,South,Shopify,Delivered
+1417,2026-01-08,Midwest,eBay,Delivered
+1418,2026-03-11,West,Amazon, SHIPPED 
+1419,2026-05-04,Midwest,Walmart,Delivered
+1420,2026-01-03,,Walmart,Shipped
+1421,2026-02-03,Midwest,Walmart,delivered
+1422,2026-03-16,west ,Shopify, SHIPPED 
+1423,2026-01-06,South,Amazon,Backordered
+1424,2026-01-09,West,eBay,delivered
+1425,2026-04-08,East, SHOPIFY ,Backordered
+1426,2026-01-04,west ,eBay,Delivered
+1427,2026-03-08,East,Shopify,Backordered
+1428,2026-04-01,West, SHOPIFY ,delivered
+1429,2026-03-25,South,eBay,delivered
+1430,2026-05-09,west , SHOPIFY ,delivered
+1431,2026-04-01,West,amazon,delivered
+1432,2026-02-16,East,Amazon,Backordered
+1433,2026-04-10,East,eBay,Backordered
+1434,2026-01-02,South,amazon,delivered
+1435,2026-03-14,South,Amazon,Shipped
+1436,2026-05-06,East,eBay,Delivered
+1437,2026-03-25,South,amazon,Shipped
+1438,2026-05-01,East,Walmart,Shipped
+1439,2026-05-05,Midwest, SHOPIFY ,Backordered
+1440,2026-05-06,,Walmart,delivered
+1441,2026-01-14,,Walmart,Cancelled
+1442,2026-03-26,west ,amazon,Shipped
+1443,2026-04-12,South,Shopify, SHIPPED 
+1444,2026-01-09,West, SHOPIFY ,Cancelled
+1445,2026-04-19,West, SHOPIFY ,delivered
+1446,2026-01-28,west ,Shopify,Backordered
+1447,2026-02-13,west ,Walmart,Shipped
+1448,2026-04-15,,eBay,Delivered
+1449,2026-01-04,,amazon,Shipped
+1450,2026-04-18,South,Amazon,Backordered

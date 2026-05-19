@@ -1,0 +1,154 @@
+product_id,sku,product_name,category,standard_cost,selling_price,supplier_id,active_flag
+1,SKU-0001,Home Product 1,Home,134.77,84.79,3,n
+2,SKU-0002,Home Product 2,HOM,20.21,135.25,1,Y
+3,SKU-0003,Beauty Product 3,beauty,93.44,22.56,4,n
+4,SKU-0004,Office Product 4,office,83.61,94.28,1,
+5,SKU-0005,Toys Product 5, Toys ,64.54,59.31,6,Y
+6,SKU-0006,Home Product 6, Home ,21.93,256.54,5,
+7,SKU-0007,Electronics Product 7, Electronics ,98.84,292.34,7,Y
+8,SKU-0008,Sports Product 8,SPO,159.95,118.07,4,n
+9,SKU-0009,Home Product 9,Home,120.72,235.32,2,
+10,SKU-0010,Beauty Product 10,Beauty,71.52,144.22,6,N
+11,SKU-0011,Kitchen Product 11,KITCHEN,41.66,91.09,2,y
+12,SKU-0012,Toys Product 12,TOY,132.6,61.57,7,Yes
+13,SKU-0013,Beauty Product 13,BEAUTY,152.5,236.16,4,
+14,SKU-0014,Electronics Product 14,ELECTRONICS,75.2,33.86,6,N
+15,SKU-0015,Pet Product 15, Pet ,159.82,198.21,3,Yes
+16,SKU-0016,Toys Product 16,toys,135.37,168.61,7,y
+17,SKU-0017,Office Product 17,OFFICE,43.38,299.3,8,Y
+18,SKU-0018,Electronics Product 18,Electronics,31.75,60.59,7,y
+19,SKU-0019,Home Product 19, Home ,71.78,298.89,5,y
+20,SKU-0020,Electronics Product 20,Electronics,124.3,168.04,5,
+21,SKU-0021,Kitchen Product 21,Kitchen,56.36,60.07,1,n
+22,SKU-0022,Sports Product 22,SPO,138.34,159.69,2,
+23,SKU-0023,Sports Product 23,SPO,111.57,58.56,3,y
+24,SKU-0024,Electronics Product 24,ELECT,61.73,20.55,6,
+25,SKU-0025,Sports Product 25,sports,15.14,265.23,2,Y
+26,SKU-0026,Pet Product 26,Pet,176.15,166.82,3,N
+27,SKU-0027,Pet Product 27,PET,33.9,165.39,7,N
+28,SKU-0028,Beauty Product 28,BEAUTY,74.82,206.43,6,No
+29,SKU-0029,Pet Product 29,Pet,48.38,33.25,1,y
+30,SKU-0030,Beauty Product 30,BEA,43.54,35.23,1,N
+31,SKU-0031,Home Product 31,Home,155.44,35.19,4,Yes
+32,SKU-0032,Pet Product 32,pet,99.37,221.16,8,N
+33,SKU-0033,Pet Product 33, Pet ,38.32,42.63,7,Yes
+34,SKU-0034,Office Product 34, Office ,86.73,222.79,2,Y
+35,SKU-0035,Office Product 35,OFFICE,145.1,46.14,4,N
+36,SKU-0036,Pet Product 36,pet,78.83,94.39,4,
+37, sku 0037 ,Home Product 37, Home ,146.4,258.95,2,Y
+38,SKU-0038,Electronics Product 38,Electronics,167.11,256.88,3,No
+39,SKU-0039,Pet Product 39, Pet ,42.41,129.3,1,N
+40,SKU-0040,Office Product 40,Office,177.43,90.58,8,Yes
+41,Sku-0041,Office Product 41,OFF,120.83,153.7,4,Yes
+42,SKU-0042,Beauty Product 42,Beauty,106.36,169.53,6,Y
+43,SKU-0043,Electronics Product 43,ELECT,88.44,277.03,3,Y
+44,SKU-0044,Home Product 44,home,16.99,34.37,4,No
+45,SKU-0045,Home Product 45,HOM,48.09,184.44,2,No
+46,SKU-0046,Kitchen Product 46,KITCHEN,40.75,219.11,4,Yes
+47,SKU-0047,Office Product 47,office,122.55,100.5,6,
+48,SKU-0048,Home Product 48,Home,85.2,299.56,2,Y
+49,SKU-0049,Beauty Product 49,BEA,51.41,280.98,2,N
+50,SKU-0050,Kitchen Product 50,KITCHEN,32.61,252.62,5,y
+51,SKU-0051,Electronics Product 51,ELECT,57.39,204.07,3,Yes
+52,SKU-0052,Home Product 52,Home,134.92,59.3,5,y
+53,SKU-0053,Beauty Product 53,BEAUTY,,73.03,5,y
+54,SKU-0054,Pet Product 54,PET,163.43,256.14,2,n
+55,SKU-0055,Office Product 55,OFFICE,12.72,110.06,3,n
+56,SKU-0056,Sports Product 56,sports,134.72,172.23,7,y
+57,SKU-0057,Electronics Product 57,Electronics,18.17,266.69,3,y
+58,SKU-0058,Electronics Product 58,ELECTRONICS,106.94,57.21,3,Y
+59,SKU-0059,Sports Product 59,SPORTS,162.32,0,1,Yes
+60,SKU-0060,Beauty Product 60,beauty,121.71,115.8,7,y
+61,SKU-0061,Toys Product 61,toys,156.31,293.22,3,No
+62,SKU-0062,Electronics Product 62,electronics,133.9,109.67,7,
+63,SKU-0063,Beauty Product 63,BEAUTY,32.86,214.86,7,
+64,SKU-0064,Electronics Product 64, Electronics ,43.93,247.73,8,Yes
+65,SKU-0065,Sports Product 65,sports,44.01,203.11,7,Yes
+66,SKU-0066,Sports Product 66,Sports,174.21,94.55,7,n
+67,SKU-0067,Kitchen Product 67,Kitchen,25.18,291.56,3,y
+68,SKU-0068,Sports Product 68,Sports,23.97,138.85,6,No
+69,SKU-0069,Home Product 69, Home ,162.41,69.17,1,n
+70,SKU-0070,Office Product 70,Office,95.99,244.86,4,Yes
+71,SKU-0071,Office Product 71,Office,171.05,277.42,6,n
+72,SKU-0072,Home Product 72,HOME,93.75,205.06,6,No
+73,SKU-0073,Sports Product 73,SPO,27.28,134.83,7,n
+74, sku 0074 ,Toys Product 74,TOY,104.59,130.73,1,Yes
+75,SKU-0075,Sports Product 75,sports,80.23,180.3,6,No
+76,SKU-0076,Pet Product 76, Pet ,123.23,160.68,3,n
+77,SKU-0077,Home Product 77,HOME,95.2,195.39,6,Y
+78,SKU-0078,Beauty Product 78,BEAUTY,44.31,71.75,1,Y
+79,SKU-0079,Beauty Product 79, Beauty ,111.97,234.02,8,No
+80,SKU-0080,Beauty Product 80, Beauty ,91.52,84.54,1,
+81,SKU-0081,Home Product 81, Home ,43.3,244.17,8,Y
+82,Sku-0082,Beauty Product 82,Beauty,84.88,243.4,6,
+83,SKU-0083,Pet Product 83,PET,147.63,269.23,7,
+84,SKU-0084,Pet Product 84,pet,135.14,150.28,5,
+85,SKU-0085,Beauty Product 85,BEAUTY,139.02,163.57,4,Yes
+86,SKU-0086,Pet Product 86,Pet,129.87,81.83,6,Yes
+87,SKU-0087,Home Product 87,home,31.4,124.17,3,n
+88,SKU-0088,Beauty Product 88,Beauty,77.6,109.3,8,No
+89,SKU-0089,Electronics Product 89,electronics,150.76,126.0,1,
+90,SKU-0090,Office Product 90, Office ,6.03,115.25,7,
+91,SKU-0091,Office Product 91,OFF,135.82,170.65,4,No
+92,SKU-0092,Beauty Product 92,BEAUTY,81.27,23.27,6,n
+93,SKU-0093,Office Product 93,office,152.09,277.07,1,No
+94,SKU-0094,Electronics Product 94,Electronics,117.48,53.67,8,N
+95,SKU-0095,Electronics Product 95,ELECTRONICS,71.34,75.32,6,Yes
+96,SKU-0096,Office Product 96,OFFICE,136.6,252.1,5,
+97,SKU-0097,Home Product 97, Home ,8.39,168.73,6,N
+98,SKU-0098,Home Product 98,Home,136.99,285.64,4,
+99,SKU-0099,Electronics Product 99,ELECT,31.67,50.97,2,y
+100,SKU-0100,Beauty Product 100, Beauty ,127.41,233.57,3,y
+101,SKU-0101,Home Product 101,home,173.83,45.81,1,Yes
+102,SKU-0102,Office Product 102, Office ,169.76,71.52,4,Y
+103,SKU-0103,Sports Product 103,SPO,145.97,241.92,1,Yes
+104,SKU-0104,Office Product 104,OFFICE,17.07,199.55,1,
+105,SKU-0105,Office Product 105, Office ,23.47,288.82,8,n
+106,SKU-0106,Toys Product 106, Toys ,,65.2,5,y
+107,SKU-0107,Pet Product 107, Pet ,81.23,223.34,5,Yes
+108,SKU-0108,Beauty Product 108,Beauty,53.81,143.48,8,y
+109,SKU-0109,Office Product 109,OFFICE,10.02,257.52,3,No
+110,SKU-0110,Beauty Product 110,BEAUTY,144.62,112.0,5,y
+111, sku 0111 ,Electronics Product 111,ELECT,170.91,39.4,7,No
+112,SKU-0112,Beauty Product 112, Beauty ,118.03,154.88,1,Y
+113,SKU-0113,Sports Product 113,sports,75.77,84.34,6,No
+114,SKU-0114,Kitchen Product 114, Kitchen ,179.41,171.86,6,n
+115,SKU-0115,Pet Product 115,PET,58.66,80.7,4,Yes
+116,SKU-0116,Home Product 116,HOM,171.4,211.7,4,N
+117,SKU-0117,Pet Product 117,PET,131.8,293.33,5,Y
+118,SKU-0118,Beauty Product 118,BEAUTY,44.81,0,3,Yes
+119,SKU-0119,Electronics Product 119,ELECT,27.15,27.97,1,y
+120,SKU-0120,Sports Product 120,sports,116.63,229.55,2,
+121,SKU-0121,Electronics Product 121,ELECT,54.76,151.43,6,N
+122,SKU-0122,Electronics Product 122,ELECTRONICS,169.69,151.15,2,No
+123,Sku-0123,Pet Product 123,Pet,105.98,210.64,3,N
+124,SKU-0124,Sports Product 124,Sports,178.94,48.76,7,y
+125,SKU-0125,Beauty Product 125,BEA,71.57,273.92,5,
+126,SKU-0126,Office Product 126,OFFICE,104.51,32.17,2,
+127,SKU-0127,Beauty Product 127,beauty,51.31,38.14,4,N
+128,SKU-0128,Home Product 128,home,5.47,143.39,8,Yes
+129,SKU-0129,Electronics Product 129,electronics,55.42,95.57,8,Y
+130,SKU-0130,Beauty Product 130,BEAUTY,142.87,193.14,4,No
+131,SKU-0131,Home Product 131,HOM,44.34,57.46,5,
+132,SKU-0132,Toys Product 132,Toys,15.44,240.9,5,No
+133,SKU-0133,Home Product 133, Home ,125.52,214.42,5,y
+134,SKU-0134,Pet Product 134, Pet ,19.08,26.36,7,n
+135,SKU-0135,Kitchen Product 135,KIT,48.81,41.03,1,
+136,SKU-0136,Sports Product 136,SPO,12.04,230.54,8,y
+137,SKU-0137,Pet Product 137,PET,36.76,181.82,8,Y
+138,SKU-0138,Pet Product 138,PET,76.46,106.5,2,
+139,SKU-0139,Toys Product 139,TOYS,77.04,156.21,7,
+140,SKU-0140,Electronics Product 140, Electronics ,20.41,86.93,2,
+141,SKU-0141,Office Product 141,OFF,149.36,15.33,8,No
+142,SKU-0142,Electronics Product 142,electronics,95.73,192.45,8,n
+143,SKU-0143,Pet Product 143,Pet,40.62,171.53,5,No
+144,SKU-0144,Pet Product 144,Pet,10.05,194.56,4,n
+145,SKU-0145,Toys Product 145,TOYS,101.4,172.39,2,N
+146,SKU-0146,Home Product 146, Home ,170.74,199.6,3,No
+147,SKU-0147,Sports Product 147,SPO,128.45,133.41,8,No
+148, sku 0148 ,Beauty Product 148, Beauty ,101.47,124.32,3,
+149,SKU-0149,Home Product 149,HOME,140.22,258.51,6,
+150,SKU-0150,Sports Product 150,Sports,54.5,100.09,8,
+151,SKU-0010,Beauty Product 10 DUP,Beauty,71.52,144.22,6,N
+152,SKU-0020,Electronics Product 20 DUP,Electronics,124.3,168.04,5,
+153,SKU-0030,Beauty Product 30 DUP,BEA,43.54,35.23,1,N
