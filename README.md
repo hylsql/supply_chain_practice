@@ -66,14 +66,4 @@ The package contains realistic supply chain data with duplicates, missing values
 
 ---
 
-## Project Structure
-
-supply_chain_sql_practice_package/
-├── data/
-|   ├── products.csv
-|   ├── inventory.csv
-|   ├── suppliers.csv
-|   ├── purchase_orders.csv
-|   ├── shipments.csv
-|   └── customer_orders.csv
 
