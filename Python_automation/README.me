@@ -2,57 +2,363 @@
 
 ## Overview
 
-This project simulates a real-world end-to-end supply chain analytics workflow using:
+This project simulates a real-world supply chain analytics and automation workflow using:
 
 - Python
 - PostgreSQL
 - pandas
 - SQL
-- CSV automation
+- Automation scripting
 
-The project includes:
-- data cleaning pipelines,
-- KPI reporting,
-- operations automation,
-- inventory alerts,
-- freight auditing,
-- reconciliation automation,
-- and automated reporting workflows.
+The project focuses on:
+- ETL and data cleaning
+- KPI reporting
+- Operations automation
+- SQL reporting workflows
+- AI-generated business summaries
 
-The goal is to replicate realistic analyst and supply chain automation processes commonly used in e-commerce and operations environments.
+The goal is to replicate practical analyst and supply chain automation workflows commonly used in e-commerce and operations environments.
+
+---
+
+# Technologies Used
+
+- Python
+- PostgreSQL
+- pandas
+- SQLAlchemy
+- psycopg2
+- dotenv
+- smtplib
 
 ---
 
 # Project Structure
 
-
+```text
 python_sql_project/
 │
 ├── data_cleaning.py
 ├── kpi_dashboard.py
 ├── operations_automation.py
+├── sql_auto_reporting.py
+├── ai_summary.py
+├── run_all_automations.py
 │
 ├── .env
 ├── email.env
 │
 ├── output/
-│   ├── cleaned_customer_orders.csv
-│   ├── cleaned_inventory.csv
-│   ├── cleaned_order_items.csv
-│   ├── cleaned_products.csv
-│   ├── cleaned_purchase_orders.csv
-│   ├── cleaned_shipments.csv
-│   ├── cleaned_suppliers.csv
-│   │
-│   ├── sales_dataset.csv
-│   ├── inventory_dataset.csv
-│   ├── purchase_order_dataset.csv
-│   ├── shipment_dataset.csv
-│   │
-│   ├── kpi_summary.csv
-│   ├── abc_analysis.csv
-│   ├── supplier_performance.csv
-│   │
-│   ├── inventory_alerts.csv
-│   ├── freight_audit_exceptions.csv
-│   └── reconciliation_exceptions.csv
+│   ├── cleaned datasets
+│   ├── KPI reports
+│   ├── automation outputs
+│   └── exception reports
+```
+
+---
+
+# KPI Report Automation
+
+Automated KPI reporting pipeline that calculates and exports:
+
+- Revenue
+- Gross Profit
+- Inventory Turnover
+- Days on Hand
+- Fill Rate
+- Lead Time
+- Freight % of Revenue
+- On-Time Delivery Rate
+- Stockout Rate
+
+### Output Files
+
+```text
+kpi_summary.csv
+abc_analysis.csv
+supplier_performance.csv
+```
+
+---
+
+## CSV Cleaning Automation
+
+Automated ETL pipeline that:
+
+- Connects to PostgreSQL
+- Reads operational tables
+- Cleans and standardizes data
+- Handles NULLs and invalid values
+- Exports cleaned datasets
+
+### Cleaned Datasets
+
+```text
+cleaned_customer_orders.csv
+cleaned_inventory.csv
+cleaned_order_items.csv
+cleaned_products.csv
+cleaned_purchase_orders.csv
+cleaned_shipments.csv
+cleaned_suppliers.csv
+```
+
+---
+
+## Email Summary Automation
+
+Automated email workflows that:
+
+- Generate KPI summaries
+- Attach CSV reports
+- Send automated status emails
+
+---
+
+# Operations Automation
+
+## Inventory Alerts
+
+Automated inventory monitoring system that detects:
+
+- Stockout risk
+- Low inventory levels
+- Reorder point alerts
+
+### Business Logic
+
+```text
+Reorder Point =
+Average Daily Sales × Lead Time
+```
+
+---
+
+## Freight Audit Automation
+
+Automated freight exception reporting that identifies:
+
+- Unusually high freight charges
+- Freight cost outliers
+- Potential overbilling risks
+
+### Output
+
+```text
+freight_audit_exceptions.csv
+```
+
+---
+
+## Reconciliation Automation
+
+Automated reconciliation workflows that detect:
+
+- Orders without shipments
+- Missing operational records
+- Revenue/shipment mismatches
+
+### Output
+
+```text
+reconciliation_exceptions.csv
+```
+
+---
+
+# Analyst Automation
+
+## SQL Auto Reporting
+
+Automated SQL reporting workflows that generate:
+
+- Top product reports
+- Revenue summaries
+- Supplier performance reports
+- Inventory valuation reports
+
+### Output
+
+```text
+top_products_report.csv
+```
+
+---
+
+## Dashboard Refresh Workflows
+
+Centralized automation workflow that:
+
+- Runs all ETL pipelines
+- Refreshes KPI datasets
+- Regenerates reports
+- Refreshes dashboard-ready outputs
+
+### Master Script
+
+```text
+run_all_automations.py
+```
+
+---
+
+## AI Summaries
+
+Automated AI-style business summaries generated from KPI outputs.
+
+### Example Summary
+
+```text
+Inventory turnover remains healthy.
+Freight costs increased compared to prior period.
+Supplier lead times improved.
+Stockout risk remains elevated for several products.
+```
+
+---
+
+# Example KPIs
+
+| KPI | Description |
+|---|---|
+| Inventory Turnover | Measures inventory efficiency |
+| Days on Hand | Estimated inventory coverage |
+| Fill Rate | Supplier fulfillment performance |
+| Lead Time | Supplier delivery speed |
+| Freight % Revenue | Logistics cost efficiency |
+| Stockout Rate | Inventory availability risk |
+| On-Time Delivery Rate | Shipment performance |
+
+---
+
+# Business Datasets
+
+## Sales Dataset
+
+Joined Tables:
+- customer_orders
+- order_items
+- products
+
+Created Metrics:
+- Revenue
+- Gross Profit
+- Total Cost
+
+---
+
+## Inventory Dataset
+
+Joined Tables:
+- inventory
+- products
+
+Created Metrics:
+- Inventory Value
+
+---
+
+## Purchase Order Dataset
+
+Joined Tables:
+- purchase_orders
+- suppliers
+- products
+
+Created Metrics:
+- Lead Time
+- Fill Rate
+
+---
+
+## Shipment Dataset
+
+Joined Tables:
+- shipments
+- customer_orders
+
+Created Metrics:
+- Delivery Delay
+- On-Time Delivery Flag
+
+---
+
+# Key Skills Demonstrated
+
+## Data Engineering
+- ETL workflows
+- Data cleaning pipelines
+- SQL + Python integration
+- Data validation
+
+## Supply Chain Analytics
+- Inventory analysis
+- Freight analysis
+- Supplier performance
+- Operational KPI reporting
+
+## Automation
+- Automated reporting
+- Inventory alerts
+- Exception handling
+- Email automation
+
+## Business Intelligence
+- KPI development
+- Dataset modeling
+- Revenue analysis
+- ABC classification
+
+---
+
+# How to Run
+
+## 1. Data Cleaning
+
+```bash
+python data_cleaning.py
+```
+
+## 2. KPI Dashboard
+
+```bash
+python kpi_dashboard.py
+```
+
+## 3. Operations Automation
+
+```bash
+python operations_automation.py
+```
+
+## 4. SQL Auto Reporting
+
+```bash
+python sql_auto_reporting.py
+```
+
+## 5. AI Summary
+
+```bash
+python ai_summary.py
+```
+
+## 6. Run All Automations
+
+```bash
+python run_all_automations.py
+```
+
+---
+
+# Future Enhancements
+
+Planned future improvements:
+
+- Power BI integration
+- Scheduled workflow automation
+- Advanced AI-generated reporting
+- Real-time dashboard refresh
+- Forecasting and demand planning models
+
+---
