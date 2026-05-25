@@ -55,6 +55,26 @@ python_sql_project/
 │   └── exception reports
 ```
 
+# Environment Variables
+
+Create a `.env` file:
+
+```env
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_database
+```
+
+Create an `email.env` file:
+
+```env
+EMAIL_SENDER=your_email@gmail.com
+EMAIL_PASSWORD=your_app_password
+EMAIL_RECEIVER=your_email@gmail.com
+```
+
 ---
 
 # KPI Report Automation
@@ -79,26 +99,6 @@ Automated KPI reporting pipeline that calculates and exports:
 kpi_summary.csv
 abc_analysis.csv
 supplier_performance.csv
-```
-
-# Environment Variables
-
-Create a `.env` file:
-
-```env
-DB_USER=your_username
-DB_PASSWORD=your_password
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=your_database
-```
-
-Create an `email.env` file:
-
-```env
-EMAIL_SENDER=your_email@gmail.com
-EMAIL_PASSWORD=your_app_password
-EMAIL_RECEIVER=your_email@gmail.com
 ```
 
 ---
