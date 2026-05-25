@@ -2,7 +2,7 @@
 
 A comprehensive hands-on SQL practice project designed to build job-ready skills for Supply Chain Analyst, Operations Analyst, Inventory Analyst, and Business Analyst roles.
 
-This project includes realistic supply chain datasets with intentional data quality issues, 100 SQL practice questions with detailed solutions, Power BI dashboard exercises, and Python automation examples.
+This project includes realistic supply chain datasets with intentional data quality issues, 100 SQL practice questions with detailed solutions, and Python automation examples.
 
 ---
 
