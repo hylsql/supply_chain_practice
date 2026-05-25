@@ -1,5 +1,5 @@
 -- Update the path below to match your computer before running.
--- Example Windows path: C:/Users/30464/OneDrive/Desktop/supply_chain_sql_practice/data/suppliers.csv
+
 COPY suppliers FROM '/path/to/data/suppliers.csv' DELIMITER ',' CSV HEADER;
 COPY products FROM '/path/to/data/products.csv' DELIMITER ',' CSV HEADER;
 COPY inventory FROM '/path/to/data/inventory.csv' DELIMITER ',' CSV HEADER;
