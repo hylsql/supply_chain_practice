@@ -35,7 +35,7 @@ The goal is to replicate practical analyst and supply chain automation workflows
 
 # Project Structure
 
-```text
+```
 python_sql_project/
 │
 ├── data_cleaning.py
@@ -71,12 +71,34 @@ Automated KPI reporting pipeline that calculates and exports:
 - On-Time Delivery Rate
 - Stockout Rate
 
+---
+
 ### Output Files
 
-```text
+```
 kpi_summary.csv
 abc_analysis.csv
 supplier_performance.csv
+```
+
+# Environment Variables
+
+Create a `.env` file:
+
+```env
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_database
+```
+
+Create an `email.env` file:
+
+```env
+EMAIL_SENDER=your_email@gmail.com
+EMAIL_PASSWORD=your_app_password
+EMAIL_RECEIVER=your_email@gmail.com
 ```
 
 ---
@@ -93,7 +115,7 @@ Automated ETL pipeline that:
 
 ### Cleaned Datasets
 
-```text
+```
 cleaned_customer_orders.csv
 cleaned_inventory.csv
 cleaned_order_items.csv
@@ -127,7 +149,7 @@ Automated inventory monitoring system that detects:
 
 ### Business Logic
 
-```text
+```
 Reorder Point =
 Average Daily Sales × Lead Time
 ```
@@ -144,7 +166,7 @@ Automated freight exception reporting that identifies:
 
 ### Output
 
-```text
+```
 freight_audit_exceptions.csv
 ```
 
@@ -160,7 +182,7 @@ Automated reconciliation workflows that detect:
 
 ### Output
 
-```text
+```
 reconciliation_exceptions.csv
 ```
 
@@ -179,7 +201,7 @@ Automated SQL reporting workflows that generate:
 
 ### Output
 
-```text
+```
 top_products_report.csv
 ```
 
@@ -196,7 +218,7 @@ Centralized automation workflow that:
 
 ### Master Script
 
-```text
+```
 run_all_automations.py
 ```
 
@@ -208,7 +230,7 @@ Automated AI-style business summaries generated from KPI outputs.
 
 ### Example Summary
 
-```text
+```
 Inventory turnover remains healthy.
 Freight costs increased compared to prior period.
 Supplier lead times improved.
