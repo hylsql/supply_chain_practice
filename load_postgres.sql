@@ -1,5 +1,4 @@
 -- Update the path below to match your computer before running.
---
 
 COPY suppliers FROM '/path/to/data/suppliers.csv' DELIMITER ',' CSV HEADER;
 COPY products FROM '/path/to/data/products.csv' DELIMITER ',' CSV HEADER;
