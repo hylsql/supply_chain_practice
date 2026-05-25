@@ -1,0 +1,10 @@
+﻿shipment_id,order_id,carrier,ship_from_warehouse,shipped_date,promised_delivery_date,delivered_date,freight_cost,shipment_status,delivery_delay_days,on_time_flag,order_date,customer_region,sales_channel,order_status,freight_outlier
+12,1014,OnTrac,South Jordan,2026-03-13,2026-03-20,2026-03-17,604.32,Late,-3,True,2026-03-14,West,Walmart,Backordered,True
+19,1021,USPS,Lehi,2026-03-22,2026-03-21,2026-03-28,469.55,Delivered,7,False,2026-03-17,West,Shopify,Shipped,True
+33,1036,FedEx,Draper,2026-04-19,2026-04-22,2026-04-22,826.92,Late,0,True,2026-04-20,South,Walmart,Shipped,True
+112,1121,FedEx,West Valley,2026-02-05,2026-02-06,2026-02-08,531.84,Delivered,2,False,2026-02-03,East,Shopify,Delivered,True
+168,1185,XPO,Salt Lake City,2026-04-21,2026-04-27,2026-04-26,573.74,Delivered,-1,True,2026-04-21,Unknown,Amazon,Shipped,True
+244,1275,UPS,Draper,2026-03-12,2026-03-20,2026-03-15,562.09,Delivered,-5,True,2026-03-13,West,Shopify,Backordered,True
+280,1315,DHL,Salt Lake City,2026-01-26,2026-01-31,2026-02-02,392.62,Delivered,2,False,2026-01-24,Midwest,Shopify,Shipped,True
+317,1360,FedEx,Salt Lake City,2026-05-12,2026-05-10,2026-05-16,607.11,Delivered,6,False,2026-05-08,Midwest,Amazon,Delivered,True
+345,1389,DHL,Lehi,2026-01-13,2026-01-12,2026-01-14,558.44,Late,2,False,2026-01-06,Unknown,Amazon,Cancelled,True

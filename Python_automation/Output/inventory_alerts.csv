@@ -1,0 +1,1 @@
+﻿inventory_id,product_id,warehouse,quantity_on_hand,last_updated,sku,product_name,category,standard_cost,selling_price,supplier_id,active_flag,inventory_value,avg_daily_sales,avg_lead_time_days,reorder_point,stockout_risk,low_stock_alert
