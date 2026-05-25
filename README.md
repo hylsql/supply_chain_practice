@@ -10,7 +10,6 @@ This project includes realistic supply chain datasets with intentional data qual
 
 - Master SQL for data cleaning and analysis
 - Practice real-world supply chain KPIs
-- Build Power BI dashboards
 - Automate reporting with Python
 - Develop a portfolio project for analyst roles
 
@@ -35,12 +34,6 @@ This project includes realistic supply chain datasets with intentional data qual
 - ABC Analysis
 - Stockout Rate
 - Supplier Performance
-
-### Power BI
-- Data modeling
-- DAX measures
-- Interactive dashboards
-- Slicers and drill-through
 
 ### Python
 - Load CSV files
