@@ -879,7 +879,8 @@ sales_df = (
 
 sales_df["revenue"] = (
     sales_df["quantity"] * sales_df["unit_price"]
-) - sales_df["discount_amount"]
+ - sales_df["discount_amount"]
+)
 
 sales_df["total_cost"] = (
     sales_df["quantity"] * sales_df["standard_cost"]
