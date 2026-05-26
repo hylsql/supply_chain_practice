@@ -354,9 +354,9 @@ products_df["product_name"] = (
 
 # Clean category
 
-products_df["product_name"] = (
-    products_df["product_name"]
-    .fillna("Unknown Product")
+products_df["category"] = (
+    products_df["category"]
+    .fillna("Unknown Category")
     .astype(str)
     .str.strip()
     .str.title()
@@ -618,7 +618,7 @@ print(
 )
 
 # ==========================================
-# Purchase Shipments Table
+# Shipments Table
 # ==========================================
 
 query = """
@@ -638,28 +638,11 @@ inspect_table(
 
 # Clean column names
 
-purchase_orders_df.columns = (
-    purchase_orders_df.columns
+shipments_df.columns = (
+    shipments_df.columns
     .str.strip()
     .str.lower()
 )
-
-# Clean Date Columns
-
-date_columns = [
-    "po_date",
-    "expected_date",
-    "received_date"
-]
-
-for col in date_columns:
-
-    purchase_orders_df[col] = (
-        pd.to_datetime(
-            purchase_orders_df[col],
-            errors="coerce"
-        )
-    )
 
 # Clean ship_from_warehouse
 
