@@ -293,10 +293,68 @@ Centralized automation workflow:
 - regenerates KPI reports
 - updates dashboard-ready outputs
 
-### Master Script
+## Workflow Scheduling Automation
+
+Windows Task Scheduler was used to automate the end-to-end reporting and analytics workflow.
+
+### Automated Workflow
 
 ```text
+Windows Task Scheduler
+↓
+run_supply_chain_automation.bat
+↓
 run_all_automations.py
+↓
+Data Cleaning ETL
+↓
+KPI Report Generation
+↓
+Operations Automation
+↓
+SQL Auto Reporting
+↓
+AI Summary Generation
+↓
+Power BI Dataset Refresh
+```
+
+### Scheduling Features
+
+- Daily automated execution
+- Centralized orchestration workflow
+- Automated logging
+- Dashboard-ready dataset refresh
+- End-to-end analytics automation
+
+### Batch Automation Script
+
+```text
+run_supply_chain_automation.bat
+```
+
+Example workflow:
+
+```bat
+@echo off
+cd /d "YOUR_PROJECT_PATH"
+
+"..\.venv\Scripts\python.exe" "run_all_automations.py" >> logs\automation_log.txt 2>&1
+```
+
+### Logging
+
+Automation logs are stored in:
+
+```text
+logs/automation_log.txt
+```
+
+The logging workflow helps monitor:
+- ETL execution
+- automation failures
+- reporting refresh status
+- operational exceptions
 ```
 
 ---
