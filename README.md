@@ -375,6 +375,81 @@ Root-cause analysis for fill rate declines
 
 ---
 
+# Inventory Forecasting & Predictive Analytics
+
+The project includes predictive inventory forecasting workflows built using Python and pandas to simulate real-world supply chain planning and replenishment analysis.
+
+## Inventory Forecasting
+
+Automated forecasting workflows estimate future inventory depletion based on:
+- current inventory levels
+- historical sales velocity
+- supplier lead times
+
+### Forecast Metrics
+
+- Average Daily Sales
+- Days Until Stockout
+- Projected Stockout Date
+- Recommended Reorder Quantity
+- Stockout Within Lead Time Flag
+
+### Forecast Outputs
+
+```text
+inventory_forecast.csv
+stockout_forecast.csv
+```
+
+---
+
+## Stockout Forecasting
+
+The stockout forecasting workflow identifies SKUs projected to stock out before suppliers can replenish inventory.
+
+### Forecast Logic
+
+```text
+Days Until Stockout =
+Quantity On Hand ÷ Average Daily Sales
+```
+
+```text
+Stockout Risk =
+Days Until Stockout < Supplier Lead Time
+```
+
+### Example Forecast Insights
+
+```text
+SKU-0045 projected to stock out in 6 days
+Supplier lead time is 14 days
+Recommended replenishment action required
+```
+
+---
+
+## Predictive Analytics Features
+
+- Inventory depletion forecasting
+- Reorder planning
+- Stockout risk prediction
+- Supplier lead time risk analysis
+- Warehouse inventory risk monitoring
+- Inventory coverage analysis
+
+---
+
+## Power BI Forecast Dashboards
+
+Forecast outputs are integrated into Power BI dashboards for:
+- projected stockout tracking
+- inventory coverage analysis
+- replenishment planning
+- warehouse inventory monitoring
+- operational risk management
+
+---
 # Power BI Dashboards
 
 The project includes interactive Power BI dashboards built from automated CSV outputs.
@@ -431,6 +506,8 @@ kpi_summary.csv
 abc_analysis.csv
 supplier_performance.csv
 inventory_alerts.csv
+inventory_forecast.csv
+stockout_forecast.csv
 freight_audit_exceptions.csv
 reconciliation_exceptions.csv
 ai_summary.txt
@@ -518,6 +595,10 @@ Planned future improvements:
 - Freight analysis
 - Supplier performance
 - Operational KPI reporting
+- Inventory forecasting
+- Stockout forecasting
+- Predictive replenishment analysis
+- Demand-driven inventory planning
 
 ## Automation
 - Automated reporting
@@ -531,6 +612,8 @@ Planned future improvements:
 - Interactive dashboards
 - Executive reporting
 - Operational analytics
+- Predictive analytics dashboards
+- Forecast visualization
 
 ---
 
