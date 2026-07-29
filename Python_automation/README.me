@@ -36,23 +36,28 @@ The goal is to replicate practical analyst and supply chain automation workflows
 # Project Structure
 
 ```
-python_sql_project/
+Python_automation/
 │
-├── data_cleaning.py
-├── kpi_dashboard.py
-├── operations_automation.py
-├── sql_auto_reporting.py
-├── ai_summary.py
-├── run_all_automations.py
+├── ai/
+│   ├── __init__.py
+│   ├── skill_loader.py
+│   ├── data_context.py
+│   ├── llm_client.py
+│   └── generate_ai_report.py
 │
-├── .env
-├── email.env
+├── skills/
+│   ├── inventory-risk/
+│   │   └── SKILL.md
+│   ├── supplier-performance/
+│   │   └── SKILL.md
+│   └── freight-audit/
+│       └── SKILL.md
 │
 ├── output/
-│   ├── cleaned datasets
-│   ├── KPI reports
-│   ├── automation outputs
-│   └── exception reports
+│   └── ai_reports/
+│
+├── ai_summary.py
+└── run_all_automations.py
 ```
 
 # Environment Variables
